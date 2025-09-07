@@ -1681,6 +1681,10 @@ function init() {
   if (location.hostname.includes('youtube.com')) {
     setupYouTubeDubbing();
     document.addEventListener('yt-navigate-finish', setupYouTubeDubbing);
+    document.addEventListener('yt-navigate-start', () => {
+      const b = document.querySelector('#zepra-dub-btn');
+      if (b) b.remove();
+    });
   }
 
   // Add CSS animations
@@ -1704,47 +1708,31 @@ function init() {
 async function setupYouTubeDubbing() {
   if (!location.pathname.startsWith('/watch')) return;
   const player = document.querySelector('.html5-video-player');
-  if (!player || player.querySelector('#zepra-dub-bubble')) return;
+  if (!player || player.querySelector('#zepra-dub-btn')) return;
 
-  const settingsBtn = player.querySelector('.ytp-settings-button');
-  const playerRect = player.getBoundingClientRect();
-  let startLeft = 20, startTop = playerRect.height - 80;
-  if (settingsBtn) {
-    const sRect = settingsBtn.getBoundingClientRect();
-    startLeft = sRect.left - playerRect.left - 60;
-    startTop = sRect.top - playerRect.top;
-  }
+  const controls = player.querySelector('.ytp-right-controls');
+  if (!controls) return;
 
-  const bubble = document.createElement('div');
-  bubble.id = 'zepra-dub-bubble';
-  bubble.textContent = '🔊';
-  Object.assign(bubble.style, {
-    position: 'absolute',
-    left: startLeft + 'px',
-    top: startTop + 'px',
-    width: '48px',
-    height: '48px',
-    borderRadius: '50%',
-    background: '#111',
-    border: '2px solid #39ff14',
-    boxShadow: '0 0 6px #39ff14',
-    color: '#ffe600',
-    fontSize: '24px',
-    cursor: 'grab',
-    zIndex: 1000,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'
-  });
-  player.appendChild(bubble);
+  const btn = document.createElement('button');
+  btn.id = 'zepra-dub-btn';
+  btn.className = 'ytp-button';
+  btn.innerHTML = `<img src="${chrome.runtime.getURL('icons/zepra.svg')}" style="width:24px;height:24px;">`;
+  btn.style.cursor = 'grab';
+  controls.prepend(btn);
 
-  let drag = { active: false, offsetX: 0, offsetY: 0, moved: false };
-  bubble.addEventListener('mousedown', e => {
+  const drag = { active: false, offsetX: 0, offsetY: 0, moved: false };
+  btn.addEventListener('mousedown', e => {
     drag.active = true;
     drag.moved = false;
     drag.offsetX = e.offsetX;
     drag.offsetY = e.offsetY;
-    bubble.style.cursor = 'grabbing';
+    const rect = player.getBoundingClientRect();
+    const br = btn.getBoundingClientRect();
+    btn.style.position = 'absolute';
+    btn.style.left = br.left - rect.left + 'px';
+    btn.style.top = br.top - rect.top + 'px';
+    player.appendChild(btn);
+    btn.style.cursor = 'grabbing';
     document.addEventListener('mousemove', onMove);
     document.addEventListener('mouseup', onUp);
   });
@@ -1753,15 +1741,16 @@ async function setupYouTubeDubbing() {
     if (!drag.active) return;
     drag.moved = true;
     const rect = player.getBoundingClientRect();
-    const x = Math.min(rect.width - bubble.offsetWidth, Math.max(0, e.clientX - rect.left - drag.offsetX));
-    const y = Math.min(rect.height - bubble.offsetHeight, Math.max(0, e.clientY - rect.top - drag.offsetY));
-    bubble.style.left = x + 'px';
-    bubble.style.top = y + 'px';
+    const x = Math.min(rect.width - btn.offsetWidth, Math.max(0, e.clientX - rect.left - drag.offsetX));
+    const y = Math.min(rect.height - btn.offsetHeight, Math.max(0, e.clientY - rect.top - drag.offsetY));
+    btn.style.left = x + 'px';
+    btn.style.top = y + 'px';
   }
+
   function onUp() {
     document.removeEventListener('mousemove', onMove);
     document.removeEventListener('mouseup', onUp);
-    bubble.style.cursor = 'grab';
+    btn.style.cursor = 'grab';
     if (!drag.moved) openDubModal();
     drag.active = false;
   }
@@ -1904,7 +1893,38 @@ async function startDubbing(lang, btn, statusEl) {
 }
 
 async function fetchTranscript() {
-  // Method A: scrape transcript panel if open
+  // Method A: parse caption track from player response
+  try {
+    let playerResp = window.ytInitialPlayerResponse;
+    if (!playerResp) {
+      const script = Array.from(document.querySelectorAll('script')).find(s => s.textContent.includes('ytInitialPlayerResponse'));
+      const match = script?.textContent.match(/ytInitialPlayerResponse\s*=\s*(\{.*?\});/);
+      if (match) playerResp = JSON.parse(match[1]);
+    }
+    const tracks = playerResp?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+    if (tracks?.length) {
+      const track = tracks.find(t => t.languageCode === 'en') || tracks[0];
+      if (track?.baseUrl) {
+        const url = track.baseUrl + '&fmt=srv3';
+        const xmlText = await fetch(url).then(r => r.text());
+        const xml = new DOMParser().parseFromString(xmlText, 'text/xml');
+        const segs = Array.from(xml.getElementsByTagName('text')).map(n => ({
+          start: parseFloat(n.getAttribute('start') || '0'),
+          text: n.textContent
+            .replace(/\s+/g, ' ')
+            .trim()
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+        })).filter(s => s.text);
+        if (segs.length) return segs;
+      }
+    }
+  } catch (e) {
+    console.warn('Player transcript fetch failed', e);
+  }
+
+  // Method B: scrape transcript panel if open
   const panel = document.querySelector('ytd-transcript-renderer');
   if (panel) {
     const segs = [];
@@ -1917,7 +1937,7 @@ async function fetchTranscript() {
     if (segs.length) return segs;
   }
 
-  // Method B: captured network transcript
+  // Method C: captured network transcript
   const resp = await chrome.runtime.sendMessage({ type: 'GET_CAPTURED_TRANSCRIPT' });
   if (resp?.xml) {
     const xml = new DOMParser().parseFromString(resp.xml, 'text/xml');
