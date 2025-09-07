@@ -1,0 +1,383 @@
+{
+   "accountBalance": {
+      "message": "アカウント残高:"
+   },
+   "addSpeaker": {
+      "message": "追加"
+   },
+   "advancedSettings": {
+      "message": "高度な設定"
+   },
+   "back": {
+      "message": "戻る"
+   },
+   "backToSettings": {
+      "message": "設定に戻る"
+   },
+   "backgroundAudio": {
+      "message": "背景音"
+   },
+   "balanceRequiredText": {
+      "message": "アカウント残高が不足しています。この機能を使用するにはチャージしてください"
+   },
+   "balanceRequiredTitle": {
+      "message": "残高が必要です"
+   },
+   "balanceRunningLow": {
+      "message": "残高が少なくなっています。視聴体験が悪化しないように、事前にチャージすることをお勧めします。"
+   },
+   "browserShortcutSettingsTip": {
+      "message": "ブラウザ拡張機能の設定でショートカットを設定してください"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "cancelButton": {
+      "message": "キャンセル"
+   },
+   "confirmButton": {
+      "message": "続行して保存"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "この話者を削除してもよろしいですか？"
+   },
+   "contentMenusTitle": {
+      "message": "音声再生を開始"
+   },
+   "debugInfo": {
+      "message": "デバッグ情報"
+   },
+   "delete": {
+      "message": "削除"
+   },
+   "deleteSpeaker": {
+      "message": "削除"
+   },
+   "description": {
+      "message": "ワンクリックでオンライン動画を翻訳・吹き替え、外国語を即理解し、世界中の知識を手軽に習得"
+   },
+   "dropdownNoOptions": {
+      "message": "利用可能なオプションはありません"
+   },
+   "dropdownPlaceholder": {
+      "message": "選択してください"
+   },
+   "dropdownSearch": {
+      "message": "検索..."
+   },
+   "dubbingSettings": {
+      "message": "配音設定"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edgeの拡張機能ショートカット設定ページを開いています"
+   },
+   "edit": {
+      "message": "編集"
+   },
+   "editSpeaker": {
+      "message": "話者を編集"
+   },
+   "enterSpeakerName": {
+      "message": "話者名を入力"
+   },
+   "enterVoice": {
+      "message": "音声名を入力"
+   },
+   "female": {
+      "message": "女"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefoxアドオンページを開いています。拡張機能とテーマでショートカットを設定してください"
+   },
+   "free": {
+      "message": "無料"
+   },
+   "freeForVip": {
+      "message": "会員無料"
+   },
+   "freeOptionTipText": {
+      "message": "チャージしたくない場合は、無料オプションを選択できます。"
+   },
+   "freeUserDailyLimit": {
+      "message": "無料ユーザーは1日最大5本の動画をプラグイン経由で視聴できます。メンバーシップにアップグレードして無制限視聴特典をお楽しみください。"
+   },
+   "freeUserNoSubtitles": {
+      "message": "この動画には内蔵字幕がありません。字幕認識を行い、翻訳・吹き替え機能をお楽しみいただくには、プラグインメンバーシップにご登録ください。"
+   },
+   "gender": {
+      "message": "性別"
+   },
+   "insufficientBalance": {
+      "message": "残高が不足していて、Google翻訳にダウングレードされました。AI翻訳を使用するには、クレジットを再チャージしてください。"
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "残高が不足しています。AI翻訳とAzure TTSを使用する前に、残高をチャージしてください。チャージしたくない場合は、Google翻訳と無料の音声タイプに切り替えることができます。"
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "AI翻訳とAzure TTSを使用する前に、メンバーシップと残高をチャージしてください。チャージしたくない場合は、Google翻訳と無料の音声タイプを選択することもできます。"
+   },
+   "insufficientMembership": {
+      "message": "メンバーシップの有効期限が切れました。AI翻訳とAzure TTSを使用する前に、メンバーシップをチャージしてください。チャージしたくない場合は、Google翻訳と無料の音声タイプを選択することもできます。"
+   },
+   "iosOpenOriginVolume": {
+      "message": "オリジナル音声をオンにする"
+   },
+   "liveVideoNotSupported": {
+      "message": "ライブビデオは現在、吹き替えに対応していません"
+   },
+   "loading": {
+      "message": "読み込み中"
+   },
+   "login": {
+      "message": "ログイン"
+   },
+   "loginAndUsePlugin": {
+      "message": "まずプラグインのアイコンをクリックしてログインし、その後プラグインを使用して音声再生を行ってください。"
+   },
+   "logout": {
+      "message": "ログアウト"
+   },
+   "lowBalanceText": {
+      "message": "アカウント残高が1ドル未満です。サービスの中断を避けるため、早めにチャージすることをお勧めします"
+   },
+   "lowBalanceTitle": {
+      "message": "残高不足アラート"
+   },
+   "male": {
+      "message": "男"
+   },
+   "man": {
+      "message": "男性"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "会員期限"
+   },
+   "membershipIcon": {
+      "message": "会員アイコン"
+   },
+   "membershipRequired": {
+      "message": "OpenAI翻訳を使用する前に、会員にアップグレードしてください。"
+   },
+   "membershipRequiredForAI": {
+      "message": "AI翻訳を使用する前に、メンバーシップをチャージしてください。チャージしたくない場合は、Google翻訳を選択することもできます。"
+   },
+   "metadataNotFound": {
+      "message": "動画メタデータが取得できませんでした。ページを更新して再試行してください"
+   },
+   "name": {
+      "message": "YouTube Dubbing – AI字幕翻訳＆吹き替え | Translate & Dub"
+   },
+   "noSpeakers": {
+      "message": "話者がいません"
+   },
+   "noSubtitlesFound": {
+      "message": "この動画には字幕がないため、翻訳・吹き替えに対応していません"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "利用可能な字幕がありません。プラグインがこの動画の字幕を認識するまでお待ちください。認識完了後、登録されたメールアドレスに通知メールをお送りします。"
+   },
+   "originalAudio": {
+      "message": "原音声"
+   },
+   "originalVolume": {
+      "message": "原音量:"
+   },
+   "pauseVideo": {
+      "message": "動画を一時停止"
+   },
+   "pay": {
+      "message": "支払う"
+   },
+   "postLoginTranslationSettings": {
+      "message": "ログイン成功。プラグインのICONをクリックして、翻訳言語と声のリストを選択できます。"
+   },
+   "premiumMemberDurationLimit": {
+      "message": "この動画には字幕がなく、動画の長さが3時間を超えているため、翻訳・吹き替えに対応していません。より短い動画または字幕付きの動画を選択してください。"
+   },
+   "rechargeLimit": {
+      "message": "残高+会員"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Safari > 環境設定 > 拡張機能でショートカットを設定してください"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "saveFailedText": {
+      "message": "設定の保存に失敗しました。もう一度お試しください"
+   },
+   "saveFailedTitle": {
+      "message": "保存に失敗しました"
+   },
+   "saveSettings": {
+      "message": "設定を保存"
+   },
+   "saveSuccessText": {
+      "message": "設定が保存されました"
+   },
+   "saveSuccessTitle": {
+      "message": "保存成功"
+   },
+   "save_settings": {
+      "message": "設定を保存"
+   },
+   "saving": {
+      "message": "保存中..."
+   },
+   "searchSourceLanguage": {
+      "message": "ソース言語を検索..."
+   },
+   "searchTargetLanguage": {
+      "message": "対象言語を検索..."
+   },
+   "selectSourceLanguage": {
+      "message": "ソース言語を選択"
+   },
+   "selectSpeaker": {
+      "message": "選択"
+   },
+   "selectTargetLanguage": {
+      "message": "対象言語を選択"
+   },
+   "sex": {
+      "message": "性別:"
+   },
+   "shortcutSettings": {
+      "message": "ショートカット設定"
+   },
+   "showSubtitle": {
+      "message": "字幕を表示"
+   },
+   "sourceLanguage": {
+      "message": "ソース言語"
+   },
+   "source_languages": {
+      "message": "ソース言語:"
+   },
+   "speaker": {
+      "message": "話者"
+   },
+   "speakerLeft": {
+      "message": "第"
+   },
+   "speakerList": {
+      "message": "話者リスト"
+   },
+   "speakerName": {
+      "message": "話者名"
+   },
+   "speakerRight": {
+      "message": "の話者"
+   },
+   "speakersTitle": {
+      "message": "スピーカー"
+   },
+   "subscribe": {
+      "message": "会員登録"
+   },
+   "subscriptionRecharge": {
+      "message": "サブスクリプション & チャージ"
+   },
+   "subtitleSize": {
+      "message": "サイズ"
+   },
+   "subtitles": {
+      "message": "字幕"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "オリジナル音声と吹き替え音声の音量設定を切り替える"
+   },
+   "switchModelWarning": {
+      "message": "動画を再生中に、音声または翻訳モデルを切り替えると、すでにロードされたリソースが無駄になるため、追加料金が発生します。次の動画で切り替えることをお勧めします。それでも続行する場合は、続行して保存をクリックしてください。"
+   },
+   "targetLanguage": {
+      "message": "対象言語"
+   },
+   "targetVolume": {
+      "message": "訳音量:"
+   },
+   "target_languages": {
+      "message": "対象言語:"
+   },
+   "textToSpeech": {
+      "message": "テキスト読み上げ:"
+   },
+   "textToSpeechToggle": {
+      "message": "フローティングボール"
+   },
+   "toggleSubtitles": {
+      "message": "字幕の切り替え"
+   },
+   "tooExpensive": {
+      "message": "高すぎる"
+   },
+   "translateEngineTipText": {
+      "message": "翻訳サービスをGoogleに変更する"
+   },
+   "translateService": {
+      "message": "翻訳:"
+   },
+   "translatedAudio": {
+      "message": "翻訳音声"
+   },
+   "translationEngine": {
+      "message": "翻訳エンジン"
+   },
+   "translationService": {
+      "message": "翻訳サービス"
+   },
+   "translationServiceTitle": {
+      "message": "翻訳サービス"
+   },
+   "trialMemberDurationLimit": {
+      "message": "この動画には字幕がありません。試用版メンバーのため、現在15分以内の動画のみ字幕認識に対応しています。正式版メンバーは3時間以内の動画に対応しています。"
+   },
+   "universalDubbingNotSupported": {
+      "message": "現在のバージョンでは、この動画の汎用吹き替えはサポートされていません。次のバージョンでサポート予定です。詳細はカスタマーサービスにお問い合わせください。"
+   },
+   "videoVolumeControlModel": {
+      "message": "背景音"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "この機能を使用するにはメンバーになり、十分な残高が必要です"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "メンバーシップと残高が必要です"
+   },
+   "vipFreeOptionTipText": {
+      "message": "メンバーとして、以下の翻訳サービスを無料で利用できます"
+   },
+   "vipRequiredText": {
+      "message": "この機能を使用するにはメンバーになる必要があります"
+   },
+   "vipRequiredTitle": {
+      "message": "メンバーシップが必要です"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "翻訳サービスをgemini、deepseek、gpt-3.5-turboまたはclaude-3-haikuなどのメンバー無料サービスに変更"
+   },
+   "voice": {
+      "message": "音声"
+   },
+   "voiceTypeTipText": {
+      "message": "音声タイプを無料バージョンに変更する"
+   },
+   "voices": {
+      "message": "声:"
+   },
+   "voicesAndSubtitles": {
+      "message": "音声と字幕"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "音声と字幕"
+   },
+   "voicesType": {
+      "message": "音声タイプ:"
+   },
+   "woman": {
+      "message": "女性"
+   }
+}
