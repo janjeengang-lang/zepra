@@ -1,0 +1,383 @@
+{
+   "accountBalance": {
+      "message": "계정 잔액:"
+   },
+   "addSpeaker": {
+      "message": "추가"
+   },
+   "advancedSettings": {
+      "message": "고급 설정"
+   },
+   "back": {
+      "message": "뒤로"
+   },
+   "backToSettings": {
+      "message": "설정으로 돌아가기"
+   },
+   "backgroundAudio": {
+      "message": "배경음"
+   },
+   "balanceRequiredText": {
+      "message": "계정 잔액이 부족합니다. 이 기능을 사용하려면 충전하세요"
+   },
+   "balanceRequiredTitle": {
+      "message": "잔액 필요"
+   },
+   "balanceRunningLow": {
+      "message": "잔액이 부족해지고 있습니다. 시청 경험이 나빠지지 않도록 미리 충전하실 것을 권장합니다."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "브라우저 확장 프로그램 설정에서 단축키를 구성하세요"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "cancelButton": {
+      "message": "취소"
+   },
+   "confirmButton": {
+      "message": "계속 진행하여 저장"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "이 화자를 삭제하시겠습니까?"
+   },
+   "contentMenusTitle": {
+      "message": "더빙 재생 시작"
+   },
+   "debugInfo": {
+      "message": "디버그 정보"
+   },
+   "delete": {
+      "message": "삭제"
+   },
+   "deleteSpeaker": {
+      "message": "삭제"
+   },
+   "description": {
+      "message": "원클릭으로 온라인 동영상을 번역·더빙, 외국어를 즉시 이해하고 전 세계 지식을 쉽게 습득"
+   },
+   "dropdownNoOptions": {
+      "message": "사용 가능한 옵션이 없습니다"
+   },
+   "dropdownPlaceholder": {
+      "message": "선택하세요"
+   },
+   "dropdownSearch": {
+      "message": "검색..."
+   },
+   "dubbingSettings": {
+      "message": "더빙 설정"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edge 확장 프로그램 단축키 설정 페이지를 열고 있습니다"
+   },
+   "edit": {
+      "message": "편집"
+   },
+   "editSpeaker": {
+      "message": "화자 편집"
+   },
+   "enterSpeakerName": {
+      "message": "화자 이름 입력"
+   },
+   "enterVoice": {
+      "message": "음성 이름 입력"
+   },
+   "female": {
+      "message": "여성"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefox 부가 기능 페이지를 열고 있습니다. 확장 프로그램 및 테마에서 단축키를 설정하세요"
+   },
+   "free": {
+      "message": "무료"
+   },
+   "freeForVip": {
+      "message": "VIP무료"
+   },
+   "freeOptionTipText": {
+      "message": "충전하고 싶지 않다면 무료 옵션을 선택할 수 있습니다. "
+   },
+   "freeUserDailyLimit": {
+      "message": "무료 사용자는 플러그인을 통해 하루 최대 5개의 동영상을 시청할 수 있습니다. 멤버십으로 업그레이드하여 무제한 시청 혜택을 누리세요."
+   },
+   "freeUserNoSubtitles": {
+      "message": "이 동영상에는 내장 자막이 없습니다. 자막 인식을 위해 플러그인 멤버십에 가입하여 번역 및 더빙 기능을 이용해 주세요."
+   },
+   "gender": {
+      "message": "성별"
+   },
+   "insufficientBalance": {
+      "message": "잔액이 부족하여 Google 번역으로 다운그레이드되었습니다. AI 번역을 사용하려면 크레딧을 충전하십시오."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "잔액이 부족합니다. AI 번역과 Azure TTS를 사용하기 전에 잔액을 충전해 주세요. 충전하고 싶지 않으시다면 Google 번역과 무료 음성 유형으로 전환할 수 있습니다."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "AI 번역과 Azure TTS를 사용하기 전에 멤버십과 잔액을 충전하세요. 충전하고 싶지 않다면 Google 번역과 무료 음성 유형을 선택할 수도 있습니다."
+   },
+   "insufficientMembership": {
+      "message": "멤버십이 만료되었습니다. AI 번역과 Azure TTS를 사용하기 전에 멤버십을 충전하세요. 충전하고 싶지 않다면 Google 번역과 무료 음성 유형을 선택할 수도 있습니다."
+   },
+   "iosOpenOriginVolume": {
+      "message": "원음 켜기"
+   },
+   "liveVideoNotSupported": {
+      "message": "라이브 비디오는 현재 더빙을 지원하지 않습니다"
+   },
+   "loading": {
+      "message": "로딩 중"
+   },
+   "login": {
+      "message": "로그인"
+   },
+   "loginAndUsePlugin": {
+      "message": "먼저 플러그인 아이콘을 클릭하여 로그인하고, 그런 다음 플러그인을 사용하여 보이스오버 재생을 사용하십시오."
+   },
+   "logout": {
+      "message": "로그아웃"
+   },
+   "lowBalanceText": {
+      "message": "계정 잔액이 $1 미만입니다. 서비스 중단을 방지하기 위해 곧 충전하는 것이 좋습니다"
+   },
+   "lowBalanceTitle": {
+      "message": "낮은 잔액 알림"
+   },
+   "male": {
+      "message": "남성"
+   },
+   "man": {
+      "message": "남자"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "멤버십 만료"
+   },
+   "membershipIcon": {
+      "message": "멤버십 아이콘"
+   },
+   "membershipRequired": {
+      "message": "OpenAI 번역을 사용하기 전에 회원으로 업그레이드하십시오."
+   },
+   "membershipRequiredForAI": {
+      "message": "AI 번역을 사용하기 전에 멤버십을 충전하세요. 충전하고 싶지 않다면 Google 번역을 선택할 수도 있습니다."
+   },
+   "metadataNotFound": {
+      "message": "비디오 메타데이터를 찾을 수 없습니다. 페이지를 새로고침하고 다시 시도해주세요"
+   },
+   "name": {
+      "message": "YouTube Dubbing – AI 자막 번역 및 더빙 | Translate & Dub"
+   },
+   "noSpeakers": {
+      "message": "화자가 없습니다"
+   },
+   "noSubtitlesFound": {
+      "message": "현재 동영상에는 자막이 없어 번역 및 더빙을 지원하지 않습니다"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "사용 가능한 자막이 없습니다. 플러그인이 이 동영상의 자막을 인식할 때까지 기다려 주세요. 인식이 완료되면 등록된 이메일 주소로 알림 메일을 보내드립니다."
+   },
+   "originalAudio": {
+      "message": "원음성"
+   },
+   "originalVolume": {
+      "message": "원음량:"
+   },
+   "pauseVideo": {
+      "message": "비디오 일시정지"
+   },
+   "pay": {
+      "message": "지불하다"
+   },
+   "postLoginTranslationSettings": {
+      "message": "로그인 성공, 플러그인 ICON을 클릭하면 번역 언어와 음성 목록을 선택할 수 있습니다."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "이 동영상에는 자막이 없고 동영상 길이가 3시간을 초과하여 번역 및 더빙을 지원하지 않습니다. 더 짧은 동영상이나 자막이 있는 동영상을 선택해 주세요."
+   },
+   "rechargeLimit": {
+      "message": "잔액+회원"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Safari > 환경설정 > 확장 프로그램에서 단축키를 설정하세요"
+   },
+   "save": {
+      "message": "저장"
+   },
+   "saveFailedText": {
+      "message": "설정 저장에 실패했습니다. 다시 시도해 주세요"
+   },
+   "saveFailedTitle": {
+      "message": "저장 실패"
+   },
+   "saveSettings": {
+      "message": "설정 저장"
+   },
+   "saveSuccessText": {
+      "message": "설정이 저장되었습니다"
+   },
+   "saveSuccessTitle": {
+      "message": "저장 성공"
+   },
+   "save_settings": {
+      "message": "설정 저장"
+   },
+   "saving": {
+      "message": "저장 중..."
+   },
+   "searchSourceLanguage": {
+      "message": "소스 언어 검색..."
+   },
+   "searchTargetLanguage": {
+      "message": "대상 언어 검색..."
+   },
+   "selectSourceLanguage": {
+      "message": "소스 언어 선택"
+   },
+   "selectSpeaker": {
+      "message": "선택"
+   },
+   "selectTargetLanguage": {
+      "message": "대상 언어 선택"
+   },
+   "sex": {
+      "message": "성별:"
+   },
+   "shortcutSettings": {
+      "message": "단축키 설정"
+   },
+   "showSubtitle": {
+      "message": "자막 표시"
+   },
+   "sourceLanguage": {
+      "message": "소스 언어"
+   },
+   "source_languages": {
+      "message": "소스 언어:"
+   },
+   "speaker": {
+      "message": "화자"
+   },
+   "speakerLeft": {
+      "message": "제"
+   },
+   "speakerList": {
+      "message": "화자 목록"
+   },
+   "speakerName": {
+      "message": "화자 이름"
+   },
+   "speakerRight": {
+      "message": "번째 화자"
+   },
+   "speakersTitle": {
+      "message": "스피커"
+   },
+   "subscribe": {
+      "message": "구독하기"
+   },
+   "subscriptionRecharge": {
+      "message": "구독 & 충전"
+   },
+   "subtitleSize": {
+      "message": "크기"
+   },
+   "subtitles": {
+      "message": "자막"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "원본 오디오와 더빙 오디오 간 볼륨 설정 전환"
+   },
+   "switchModelWarning": {
+      "message": "동영상을 재생하는 동안 음성 또는 번역 모델을 전환하면 이미 로드된 리소스가 낭비되어 추가 요금이 부과됩니다. 다음 동영상에서 전환하는 것이 좋습니다. 그래도 계속하려면 계속 진행하여 저장을 클릭하세요."
+   },
+   "targetLanguage": {
+      "message": "대상 언어"
+   },
+   "targetVolume": {
+      "message": "더빙음량:"
+   },
+   "target_languages": {
+      "message": "대상 언어:"
+   },
+   "textToSpeech": {
+      "message": "텍스트 음성 변환:"
+   },
+   "textToSpeechToggle": {
+      "message": "플로팅 볼"
+   },
+   "toggleSubtitles": {
+      "message": "자막 전환"
+   },
+   "tooExpensive": {
+      "message": "너무 비쌉니다"
+   },
+   "translateEngineTipText": {
+      "message": "번역 서비스를 Google로 변경"
+   },
+   "translateService": {
+      "message": "번역:"
+   },
+   "translatedAudio": {
+      "message": "번역 음성"
+   },
+   "translationEngine": {
+      "message": "번역 엔진"
+   },
+   "translationService": {
+      "message": "번역 서비스"
+   },
+   "translationServiceTitle": {
+      "message": "번역 서비스"
+   },
+   "trialMemberDurationLimit": {
+      "message": "현재 동영상에는 자막이 없습니다. 체험판 회원이므로 현재 15분 이내의 동영상만 자막 인식을 지원합니다. 정식 회원은 3시간 이내의 동영상을 지원합니다."
+   },
+   "universalDubbingNotSupported": {
+      "message": "현재 버전에서는 이 동영상의 범용 더빙을 지원하지 않습니다. 다음 버전에서 지원할 예정입니다. 자세한 내용은 고객 서비스에 문의해 주세요."
+   },
+   "videoVolumeControlModel": {
+      "message": "배경음"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "이 기능을 사용하려면 멤버가 되고 충분한 잔액이 있어야 합니다"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "멤버십 및 잔액 필요"
+   },
+   "vipFreeOptionTipText": {
+      "message": "멤버로서 다음 번역 서비스를 무료로 사용할 수 있습니다"
+   },
+   "vipRequiredText": {
+      "message": "이 기능을 사용하려면 멤버가 되어야 합니다"
+   },
+   "vipRequiredTitle": {
+      "message": "멤버십 필요"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "번역 서비스를 gemini, deepseek, gpt-3.5-turbo 또는 claude-3-haiku와 같은 멤버 무료 서비스로 변경"
+   },
+   "voice": {
+      "message": "음성"
+   },
+   "voiceTypeTipText": {
+      "message": "음성 유형을 무료 버전으로 변경"
+   },
+   "voices": {
+      "message": "목소리:"
+   },
+   "voicesAndSubtitles": {
+      "message": "음성 및 자막"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "음성 및 자막"
+   },
+   "voicesType": {
+      "message": "음성 유형:"
+   },
+   "woman": {
+      "message": "여자"
+   }
+}

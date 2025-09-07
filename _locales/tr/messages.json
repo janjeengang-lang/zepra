@@ -1,0 +1,383 @@
+{
+   "accountBalance": {
+      "message": "Hesap bakiyesi:"
+   },
+   "addSpeaker": {
+      "message": "Ekle"
+   },
+   "advancedSettings": {
+      "message": "Gelişmiş Ayarlar"
+   },
+   "back": {
+      "message": "Geri"
+   },
+   "backToSettings": {
+      "message": "Ayarlara dön"
+   },
+   "backgroundAudio": {
+      "message": "Arka ses"
+   },
+   "balanceRequiredText": {
+      "message": "Bakiyeniz yetersiz, kota ekleyin ve kullanın"
+   },
+   "balanceRequiredTitle": {
+      "message": "Kota gerekli"
+   },
+   "balanceRunningLow": {
+      "message": "Kotanız bitmek üzere, kesintisiz deneyim için önceden kota ekleyin."
+   },
+   "browserShortcutSettingsTip": {
+      "message": "Tarayıcı eklenti ayarlarında kısayolları düzenleyin"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "cancelButton": {
+      "message": "İptal"
+   },
+   "confirmButton": {
+      "message": "Devam et ve kaydet"
+   },
+   "confirmDeleteSpeaker": {
+      "message": "Bu konuşmacıyı silmek istediğinizden emin misiniz?"
+   },
+   "contentMenusTitle": {
+      "message": "Dublaj Oynatmayı Başlat"
+   },
+   "debugInfo": {
+      "message": "Hata Ayıklama Bilgisi"
+   },
+   "delete": {
+      "message": "Sil"
+   },
+   "deleteSpeaker": {
+      "message": "Sil"
+   },
+   "description": {
+      "message": "Videoları tek tıkla çevrimiçi çevir ve dublaj yap, yabancı dilleri anında anla, dünya bilgisini kolayca kavra"
+   },
+   "dropdownNoOptions": {
+      "message": "Seçenek yok"
+   },
+   "dropdownPlaceholder": {
+      "message": "Seçiniz"
+   },
+   "dropdownSearch": {
+      "message": "Ara..."
+   },
+   "dubbingSettings": {
+      "message": "Dublaj Ayarları"
+   },
+   "edgeShortcutSettingsTip": {
+      "message": "Edge eklenti kısayol ayarları açılıyor"
+   },
+   "edit": {
+      "message": "Düzenle"
+   },
+   "editSpeaker": {
+      "message": "Konuşmacıyı Düzenle"
+   },
+   "enterSpeakerName": {
+      "message": "Konuşmacı adını girin"
+   },
+   "enterVoice": {
+      "message": "Ses adını girin"
+   },
+   "female": {
+      "message": "Kadın"
+   },
+   "firefoxShortcutSettingsTip": {
+      "message": "Firefox eklenti sayfasını açıyor, kısayolları ayarlayın"
+   },
+   "free": {
+      "message": "Ücretsiz"
+   },
+   "freeForVip": {
+      "message": "Üyelere ücretsiz"
+   },
+   "freeOptionTipText": {
+      "message": "Kota eklemek istemezseniz, ücretsiz seçeneği seçin,"
+   },
+   "freeUserDailyLimit": {
+      "message": "Ücretsiz kullanıcılar eklenti aracılığıyla günde en fazla 5 video izleyebilir. Sınırsız izleme avantajlarının kilidini açmak için üyeliğe yükseltin."
+   },
+   "freeUserNoSubtitles": {
+      "message": "Bu videoda yerleşik altyazı yok. Altyazı tanıma için lütfen eklenti üyeliğine abone olun ve çeviri ve dublaj özelliklerinin keyfini çıkarın."
+   },
+   "gender": {
+      "message": "Cinsiyet"
+   },
+   "insufficientBalance": {
+      "message": "Bakiyeniz yetersiz, Google çeviriye düşürüldü, AI için kota ekleyin."
+   },
+   "insufficientBalanceAlertMsg": {
+      "message": "Kota yetersiz, AI çeviri ve Azure TTS için kota ekleyin veya Google ve ücretsiz ses seçin."
+   },
+   "insufficientBalanceAndMembership": {
+      "message": "AI çeviri ve Azure TTS kullanmadan önce üyelik ve bakiye yükleyin. Yüklemek istemiyorsanız Google Translate ve ücretsiz ses türlerini seçebilirsiniz."
+   },
+   "insufficientMembership": {
+      "message": "Üyeliğinizin süresi doldu. AI çeviri ve Azure TTS kullanmadan önce üyelik yükleyin. Yüklemek istemiyorsanız Google Translate ve ücretsiz ses türlerini seçebilirsiniz."
+   },
+   "iosOpenOriginVolume": {
+      "message": "Orijinal sesi aç:"
+   },
+   "liveVideoNotSupported": {
+      "message": "Canlı video dublajı desteklenmez"
+   },
+   "loading": {
+      "message": "Yükleniyor"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "loginAndUsePlugin": {
+      "message": "Önce eklenti simgesine tıklayıp giriş yapın, sonra dublaj kullanın."
+   },
+   "logout": {
+      "message": "Çıkış yap"
+   },
+   "lowBalanceText": {
+      "message": "Bakiyeniz 1$ altında, kesintisiz kullanım için kota ekleyin"
+   },
+   "lowBalanceTitle": {
+      "message": "Düşük bakiye uyarısı"
+   },
+   "male": {
+      "message": "Erkek"
+   },
+   "man": {
+      "message": "Erkek"
+   },
+   "memberUser": {
+      "message": "PRO"
+   },
+   "membershipExpires": {
+      "message": "Kadar"
+   },
+   "membershipIcon": {
+      "message": "Üyelik simgesi"
+   },
+   "membershipRequired": {
+      "message": "OpenAI çevirisi için önce üye olmanız gerekir."
+   },
+   "membershipRequiredForAI": {
+      "message": "AI çeviri kullanmadan önce üyelik yükleyin. Yüklemek istemiyorsanız Google Translate seçebilirsiniz."
+   },
+   "metadataNotFound": {
+      "message": "Video meta verileri bulunamadı, lütfen sayfayı yenileyin ve tekrar deneyin"
+   },
+   "name": {
+      "message": "YouTube Dubbing – Yapay Zekâ ile Altyazı Çeviri ve Dublaj | Translate & Dub"
+   },
+   "noSpeakers": {
+      "message": "Konuşmacı yok"
+   },
+   "noSubtitlesFound": {
+      "message": "Mevcut videoda altyazı yok, çeviri ve dublaj desteklenmiyor"
+   },
+   "noSubtitlesWaitOptimization": {
+      "message": "Kullanılabilir altyazı yok. Lütfen eklentinin bu video için altyazıları tanımasını bekleyin. Tanıma tamamlandığında kayıtlı e-posta adresinize bildirim e-postası gönderilecektir."
+   },
+   "originalAudio": {
+      "message": "Orijinal ses"
+   },
+   "originalVolume": {
+      "message": "Orijinal ses:"
+   },
+   "pauseVideo": {
+      "message": "Videoyu Duraklat"
+   },
+   "pay": {
+      "message": "Öde"
+   },
+   "postLoginTranslationSettings": {
+      "message": "Giriş başarılı, eklenti simgesine tıklayın, çeviri dili ve ses seçin."
+   },
+   "premiumMemberDurationLimit": {
+      "message": "Bu videoda altyazı yok ve video süresi 3 saati aşıyor, çeviri ve dublaj desteklenmiyor. Lütfen daha kısa bir video veya altyazılı bir video seçin."
+   },
+   "rechargeLimit": {
+      "message": "Kota + Üyelik"
+   },
+   "safariShortcutSettingsTip": {
+      "message": "Safari > Tercihler > Eklentiler'den kısayol ayarlayın"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "saveFailedText": {
+      "message": "Ayarlar kaydedilemedi, tekrar deneyin"
+   },
+   "saveFailedTitle": {
+      "message": "Kaydetme başarısız"
+   },
+   "saveSettings": {
+      "message": "Ayarları Kaydet"
+   },
+   "saveSuccessText": {
+      "message": "Ayarlar kaydedildi"
+   },
+   "saveSuccessTitle": {
+      "message": "Başarıyla Kaydedildi"
+   },
+   "save_settings": {
+      "message": "Kaydet"
+   },
+   "saving": {
+      "message": "Kaydediliyor..."
+   },
+   "searchSourceLanguage": {
+      "message": "Kaynak dil ara..."
+   },
+   "searchTargetLanguage": {
+      "message": "Hedef dil ara..."
+   },
+   "selectSourceLanguage": {
+      "message": "Kaynak dil seç"
+   },
+   "selectSpeaker": {
+      "message": "Seç"
+   },
+   "selectTargetLanguage": {
+      "message": "Hedef dil seç"
+   },
+   "sex": {
+      "message": "Cinsiyet:"
+   },
+   "shortcutSettings": {
+      "message": "Kısayol ayarları"
+   },
+   "showSubtitle": {
+      "message": "Altyazıyı göster:"
+   },
+   "sourceLanguage": {
+      "message": "Kaynak Dil"
+   },
+   "source_languages": {
+      "message": "Kaynak dil:"
+   },
+   "speaker": {
+      "message": "Konuşmacı"
+   },
+   "speakerLeft": {
+      "message": "No."
+   },
+   "speakerList": {
+      "message": "Konuşmacı Listesi"
+   },
+   "speakerName": {
+      "message": "Konuşmacı Adı"
+   },
+   "speakerRight": {
+      "message": ". konuşmacı"
+   },
+   "speakersTitle": {
+      "message": "Karakterler"
+   },
+   "subscribe": {
+      "message": "Üye ol"
+   },
+   "subscriptionRecharge": {
+      "message": "Abonelik"
+   },
+   "subtitleSize": {
+      "message": "Boyut"
+   },
+   "subtitles": {
+      "message": "Altyazı"
+   },
+   "swapVolumeSettingsCommand": {
+      "message": "Orijinal ve dublaj ses arasında ses ayarlarını değiştir"
+   },
+   "switchModelWarning": {
+      "message": "Video oynarken ses/çeviri değişimi ek ücret alır, kaynaklar boşa gider, bir sonraki videoda değiştirin veya devam edin."
+   },
+   "targetLanguage": {
+      "message": "Hedef Dil"
+   },
+   "targetVolume": {
+      "message": "Hedef ses:"
+   },
+   "target_languages": {
+      "message": "Hedef dil:"
+   },
+   "textToSpeech": {
+      "message": "Metin dublajı:"
+   },
+   "textToSpeechToggle": {
+      "message": "Yüzen balon"
+   },
+   "toggleSubtitles": {
+      "message": "Altyazıyı aç/kapa"
+   },
+   "tooExpensive": {
+      "message": "Pahalı"
+   },
+   "translateEngineTipText": {
+      "message": "Çeviri servisini Google'a çevirin"
+   },
+   "translateService": {
+      "message": "Çeviri servisi:"
+   },
+   "translatedAudio": {
+      "message": "Çeviri sesi"
+   },
+   "translationEngine": {
+      "message": "Çeviri Motoru"
+   },
+   "translationService": {
+      "message": "Çeviri Hizmeti"
+   },
+   "translationServiceTitle": {
+      "message": "Çeviri servisi"
+   },
+   "trialMemberDurationLimit": {
+      "message": "Bu videoda altyazı yok. Deneme üyesi olduğunuz için şu anda altyazı tanıma için sadece 15 dakikadan kısa videolar destekleniyor. Premium üyeler 3 saatten kısa videoları destekler."
+   },
+   "universalDubbingNotSupported": {
+      "message": "Mevcut sürümde bu video için evrensel dublaj desteklenmiyor. Destek bir sonraki sürümde planlanıyor. Ayrıntılar için lütfen müşteri hizmetleri ile iletişime geçin."
+   },
+   "videoVolumeControlModel": {
+      "message": "Arka plan sesi:"
+   },
+   "vipAndBalanceRequiredText": {
+      "message": "Bu özellik için üye olup kota eklemeniz gerekir"
+   },
+   "vipAndBalanceRequiredTitle": {
+      "message": "Üyelik ve kota gerekli"
+   },
+   "vipFreeOptionTipText": {
+      "message": "Üye olarak aşağıdaki çeviri servislerini ücretsiz kullanabilirsiniz"
+   },
+   "vipRequiredText": {
+      "message": "Bu özellik için üye olmanız gerekir"
+   },
+   "vipRequiredTitle": {
+      "message": "Üyelik gerekli"
+   },
+   "vipTranslateEngineTipText": {
+      "message": "Çeviriyi gemini, deepseek, gpt-3.5 veya claude-3-haiku gibi ücretsiz üye servislerine değiştirin"
+   },
+   "voice": {
+      "message": "Ses"
+   },
+   "voiceTypeTipText": {
+      "message": "Ses türünü ücretsiz sürüme çevirin"
+   },
+   "voices": {
+      "message": "Ses:"
+   },
+   "voicesAndSubtitles": {
+      "message": "Ses ve Altyazı"
+   },
+   "voicesAndSubtitlesTitle": {
+      "message": "Ses ve altyazı"
+   },
+   "voicesType": {
+      "message": "Ses türü:"
+   },
+   "woman": {
+      "message": "Kadın"
+   }
+}
